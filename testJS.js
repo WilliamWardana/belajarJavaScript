@@ -149,30 +149,57 @@
 // sepeda1.start();
 // sepeda1.brake();
 
-class Student {
-    constructor(name, jurusan, tahunAngkatan) {
-        this.name = name;
-        this.jurusan = jurusan;
-        this.tahunAngkatan = tahunAngkatan;
-    }
+// class Student {
+//     constructor(name, jurusan, tahunAngkatan) {
+//         this.name = name;
+//         this.jurusan = jurusan;
+//         this.tahunAngkatan = tahunAngkatan;
+//     }
 
-    introduce() {
-        console.log (`Halo, nama saya ${this.name}, saya dari jurusan ${this.jurusan} angkatan ${this.tahunAngkatan}.`);
-    }
+//     introduce() {
+//         console.log (`Halo, nama saya ${this.name}, saya dari jurusan ${this.jurusan} angkatan ${this.tahunAngkatan}.`);
+//     }
 
-    isSenior() {
-        if (this.tahunAngkatan < 2025) {
-            console.log(`${this.name} sudah senior.`);
-        } else {
-            console.log(`${this.name} masih maba.`);
-        }
-    }
-}
+//     isSenior() {
+//         if (this.tahunAngkatan < 2025) {
+//             console.log(`${this.name} sudah senior.`);
+//         } else {
+//             console.log(`${this.name} masih maba.`);
+//         }
+//     }
+// }
 
-let student1 = new Student('Andi', 'Teknik Informatika', 2020);
-let student2 = new Student('Budi', 'Sistem Informasi', 2025);
+// let student1 = new Student('Andi', 'Teknik Informatika', 2020);
+// let student2 = new Student('Budi', 'Sistem Informasi', 2025);
 
-student1.introduce();
-student1.isSenior();
-student2.introduce();
-student2.isSenior();
+// student1.introduce();
+// student1.isSenior();
+// student2.introduce();
+// student2.isSenior();
+
+// class Produk {
+//     constructor(nama) {
+//         this.nama = nama;
+//     }
+
+//     display() {
+//         console.log(`Produk: ${this.nama}`);
+//     }
+// }
+
+// class Clothing extends Produk {
+//     constructor(nama, size) {
+//         super(nama);
+//         this.size = size;
+//     }
+    
+//     display() {
+//         console.log(`Pakaian: ${this.nama}, Ukuran: ${this.size}`);
+//     }
+// }
+
+// const p = new Produk('Sepatu');
+// p.display();
+
+// const q = new Clothing('Kaos', 'L');
+// q.display();
